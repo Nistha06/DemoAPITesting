@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-PetSuite" class="navigator-link">
+              <span class="suite-name border-passed">PetSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-PetSuite" class="navigator-link ">
+                    <span>C:\Users\DELL\eclipse-workspace\frameWork_PetStore\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-PetSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-PetSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-PetSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-PetSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-PetSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-PetSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PetSuite" class="hide-methods passed suite-PetSuite"> (hide)</a> <!-- hide-methods passed suite-PetSuite -->
+                      <a href="#" panel-name="suite-PetSuite" class="show-methods passed suite-PetSuite"> (show)</a> <!-- show-methods passed suite-PetSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-PetSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser1)">testDeleteUserByName(testuser1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser2)">testDeleteUserByName(testuser2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser4)">testDeleteUserByName(testuser4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testDeleteUserByName(testuser3)">testDeleteUserByName(testuser3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testDeleteUserByName">testDeleteUserByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testGetUserByName(testuser3)">testGetUserByName(testuser3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testGetUserByName(testuser1)">testGetUserByName(testuser1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testGetUserByName(testuser2)">testGetUserByName(testuser2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testGetUserByName(testuser4)">testGetUserByName(testuser4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testGetUserByName">testGetUserByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostUser(1011, testuser2, two, test, twotest@gmail.com, test@124, 98393893)">testPostUser(1011, testuser2, two, test, twotest@gmail.com, test@124, 98393893)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostUser(1010, testuser1, one, test, onetest@gmail.com, test@123, 98393892)">testPostUser(1010, testuser1, one, test, onetest@gmail.com, test@123, 98393892)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testPostUser">testPostUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostUser(1013, testuser4, four, test, fourtest@gmail.com, test@126, 98393895)">testPostUser(1013, testuser4, four, test, fourtest@gmail.com, test@126, 98393895)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testPostUser(1012, testuser3, three, test, threetest@gmail.com, test@125, 98393894)">testPostUser(1012, testuser3, three, test, threetest@gmail.com, test@125, 98393894)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateUserByName(1012, testuser3, three, test, threetest@gmail.com, test@125, 98393894)">testUpdateUserByName(1012, testuser3, three, test, threetest@gmail.com, test@125, 98393894)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateUserByName(1010, testuser1, one, test, onetest@gmail.com, test@123, 98393892)">testUpdateUserByName(1010, testuser1, one, test, onetest@gmail.com, test@123, 98393892)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateUserByName(1013, testuser4, four, test, fourtest@gmail.com, test@126, 98393895)">testUpdateUserByName(1013, testuser4, four, test, fourtest@gmail.com, test@126, 98393895)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testUpdateUserByName">testUpdateUserByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetSuite" title="api.test.DDTests" class="method navigator-link" hash-for-method="testUpdateUserByName(1011, testuser2, two, test, twotest@gmail.com, test@124, 98393893)">testUpdateUserByName(1011, testuser2, two, test, twotest@gmail.com, test@124, 98393893)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PetSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PetSuite" class="panel PetSuite">
+          <div class="suite-PetSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.DDTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName(testuser1)">
+                  </a> <!-- testDeleteUserByName(testuser1) -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <span class="parameters">(testuser1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName(testuser2)">
+                  </a> <!-- testDeleteUserByName(testuser2) -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <span class="parameters">(testuser2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName(testuser4)">
+                  </a> <!-- testDeleteUserByName(testuser4) -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <span class="parameters">(testuser4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName(testuser3)">
+                  </a> <!-- testDeleteUserByName(testuser3) -->
+                  <span class="method-name">testDeleteUserByName</span>
+                  <span class="parameters">(testuser3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserByName(testuser3)">
+                  </a> <!-- testGetUserByName(testuser3) -->
+                  <span class="method-name">testGetUserByName</span>
+                  <span class="parameters">(testuser3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserByName(testuser1)">
+                  </a> <!-- testGetUserByName(testuser1) -->
+                  <span class="method-name">testGetUserByName</span>
+                  <span class="parameters">(testuser1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserByName(testuser2)">
+                  </a> <!-- testGetUserByName(testuser2) -->
+                  <span class="method-name">testGetUserByName</span>
+                  <span class="parameters">(testuser2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserByName(testuser4)">
+                  </a> <!-- testGetUserByName(testuser4) -->
+                  <span class="method-name">testGetUserByName</span>
+                  <span class="parameters">(testuser4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostUser(1011, testuser2, two, test, twotest@gmail.com, test@124, 98393893)">
+                  </a> <!-- testPostUser(1011, testuser2, two, test, twotest@gmail.com, test@124, 98393893) -->
+                  <span class="method-name">testPostUser</span>
+                  <span class="parameters">(1011, testuser2, two, test, twotest@gmail.com, test@124, 98393893)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostUser(1010, testuser1, one, test, onetest@gmail.com, test@123, 98393892)">
+                  </a> <!-- testPostUser(1010, testuser1, one, test, onetest@gmail.com, test@123, 98393892) -->
+                  <span class="method-name">testPostUser</span>
+                  <span class="parameters">(1010, testuser1, one, test, onetest@gmail.com, test@123, 98393892)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostUser(1013, testuser4, four, test, fourtest@gmail.com, test@126, 98393895)">
+                  </a> <!-- testPostUser(1013, testuser4, four, test, fourtest@gmail.com, test@126, 98393895) -->
+                  <span class="method-name">testPostUser</span>
+                  <span class="parameters">(1013, testuser4, four, test, fourtest@gmail.com, test@126, 98393895)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostUser(1012, testuser3, three, test, threetest@gmail.com, test@125, 98393894)">
+                  </a> <!-- testPostUser(1012, testuser3, three, test, threetest@gmail.com, test@125, 98393894) -->
+                  <span class="method-name">testPostUser</span>
+                  <span class="parameters">(1012, testuser3, three, test, threetest@gmail.com, test@125, 98393894)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUserByName(1012, testuser3, three, test, threetest@gmail.com, test@125, 98393894)">
+                  </a> <!-- testUpdateUserByName(1012, testuser3, three, test, threetest@gmail.com, test@125, 98393894) -->
+                  <span class="method-name">testUpdateUserByName</span>
+                  <span class="parameters">(1012, testuser3, three, test, threetest@gmail.com, test@125, 98393894)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUserByName(1010, testuser1, one, test, onetest@gmail.com, test@123, 98393892)">
+                  </a> <!-- testUpdateUserByName(1010, testuser1, one, test, onetest@gmail.com, test@123, 98393892) -->
+                  <span class="method-name">testUpdateUserByName</span>
+                  <span class="parameters">(1010, testuser1, one, test, onetest@gmail.com, test@123, 98393892)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUserByName(1013, testuser4, four, test, fourtest@gmail.com, test@126, 98393895)">
+                  </a> <!-- testUpdateUserByName(1013, testuser4, four, test, fourtest@gmail.com, test@126, 98393895) -->
+                  <span class="method-name">testUpdateUserByName</span>
+                  <span class="parameters">(1013, testuser4, four, test, fourtest@gmail.com, test@126, 98393895)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUserByName(1011, testuser2, two, test, twotest@gmail.com, test@124, 98393893)">
+                  </a> <!-- testUpdateUserByName(1011, testuser2, two, test, twotest@gmail.com, test@124, 98393893) -->
+                  <span class="method-name">testUpdateUserByName</span>
+                  <span class="parameters">(1011, testuser2, two, test, twotest@gmail.com, test@124, 98393893)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetSuite-class-passed -->
+          <div class="suite-PetSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.UserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUserByName">
+                  </a> <!-- testDeleteUserByName -->
+                  <span class="method-name">testDeleteUserByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserByName">
+                  </a> <!-- testGetUserByName -->
+                  <span class="method-name">testGetUserByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostUser">
+                  </a> <!-- testPostUser -->
+                  <span class="method-name">testPostUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUserByName">
+                  </a> <!-- testUpdateUserByName -->
+                  <span class="method-name">testUpdateUserByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetSuite-class-passed -->
+        </div> <!-- panel PetSuite -->
+        <div panel-name="test-xml-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\DELL\eclipse-workspace\frameWork_PetStore\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;PetSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;api.utilities.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PetTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api.test.UserTests&quot;/&gt;
+      &lt;class name=&quot;api.test.DDTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PetTests --&gt;
+&lt;/suite&gt; &lt;!-- PetSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PetSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PetTests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PetSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PetSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PetSuite');
+function tableData_PetSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testPostUser')
+data.setCell(0, 2, 'api.test.UserTests')
+data.setCell(0, 3, 5037);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testUpdateUserByName')
+data.setCell(1, 2, 'api.test.DDTests')
+data.setCell(1, 3, 1513);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetUserByName')
+data.setCell(2, 2, 'api.test.UserTests')
+data.setCell(2, 3, 1488);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testPostUser')
+data.setCell(3, 2, 'api.test.DDTests')
+data.setCell(3, 3, 1484);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testUpdateUserByName')
+data.setCell(4, 2, 'api.test.UserTests')
+data.setCell(4, 3, 1481);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGetUserByName')
+data.setCell(5, 2, 'api.test.DDTests')
+data.setCell(5, 3, 1480);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testUpdateUserByName')
+data.setCell(6, 2, 'api.test.DDTests')
+data.setCell(6, 3, 1460);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetUserByName')
+data.setCell(7, 2, 'api.test.DDTests')
+data.setCell(7, 3, 1450);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testUpdateUserByName')
+data.setCell(8, 2, 'api.test.DDTests')
+data.setCell(8, 3, 1448);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testDeleteUserByName')
+data.setCell(9, 2, 'api.test.DDTests')
+data.setCell(9, 3, 1442);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testDeleteUserByName')
+data.setCell(10, 2, 'api.test.UserTests')
+data.setCell(10, 3, 1418);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testGetUserByName')
+data.setCell(11, 2, 'api.test.DDTests')
+data.setCell(11, 3, 1414);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testDeleteUserByName')
+data.setCell(12, 2, 'api.test.DDTests')
+data.setCell(12, 3, 1412);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDeleteUserByName')
+data.setCell(13, 2, 'api.test.DDTests')
+data.setCell(13, 3, 1399);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testPostUser')
+data.setCell(14, 2, 'api.test.DDTests')
+data.setCell(14, 3, 1389);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testDeleteUserByName')
+data.setCell(15, 2, 'api.test.DDTests')
+data.setCell(15, 3, 1386);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testGetUserByName')
+data.setCell(16, 2, 'api.test.DDTests')
+data.setCell(16, 3, 1386);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testUpdateUserByName')
+data.setCell(17, 2, 'api.test.DDTests')
+data.setCell(17, 3, 1384);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testPostUser')
+data.setCell(18, 2, 'api.test.DDTests')
+data.setCell(18, 3, 1381);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testPostUser')
+data.setCell(19, 2, 'api.test.DDTests')
+data.setCell(19, 3, 1375);
+window.suiteTableData['PetSuite']= { tableData: data, tableDiv: 'times-div-PetSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <div id="times-div-PetSuite">
+              </div> <!-- times-div-PetSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PetSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PetSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.UserTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPostUser</span>
+                <span class="method-start">1796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserByName</span>
+                <span class="method-start">6872 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUserByName</span>
+                <span class="method-start">8378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUserByName</span>
+                <span class="method-start">9868 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.DDTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPostUser(1010, testuser1, one, test, onetest@gmail.com, test@123, 98393892)</span>
+                <span class="method-start">13966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostUser(1011, testuser2, two, test, twotest@gmail.com, test@124, 98393893)</span>
+                <span class="method-start">15351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostUser(1012, testuser3, three, test, threetest@gmail.com, test@125, 98393894)</span>
+                <span class="method-start">16837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPostUser(1013, testuser4, four, test, fourtest@gmail.com, test@126, 98393895)</span>
+                <span class="method-start">18215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserByName(testuser1)</span>
+                <span class="method-start">19941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserByName(testuser2)</span>
+                <span class="method-start">21422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserByName(testuser3)</span>
+                <span class="method-start">22873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserByName(testuser4)</span>
+                <span class="method-start">24288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUserByName(1010, testuser1, one, test, onetest@gmail.com, test@123, 98393892)</span>
+                <span class="method-start">26285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUserByName(1011, testuser2, two, test, twotest@gmail.com, test@124, 98393893)</span>
+                <span class="method-start">27670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUserByName(1012, testuser3, three, test, threetest@gmail.com, test@125, 98393894)</span>
+                <span class="method-start">29120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUserByName(1013, testuser4, four, test, fourtest@gmail.com, test@126, 98393895)</span>
+                <span class="method-start">30583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUserByName(testuser1)</span>
+                <span class="method-start">32177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUserByName(testuser2)</span>
+                <span class="method-start">33566 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUserByName(testuser3)</span>
+                <span class="method-start">34967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUserByName(testuser4)</span>
+                <span class="method-start">36411 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
